@@ -43,6 +43,11 @@ p {
     padding-top: 90px;
     padding-bottom: 50px;
 }
+
+.section_title img {
+    text-align: center;
+}
+
 .section_title h2 {
     text-transform: uppercase;
     text-align: center;
@@ -143,7 +148,7 @@ p {
 .header {
     background: url(../images/home.jpg);
     background-size: cover;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .75);
@@ -154,18 +159,11 @@ p {
 .home_text{
     text-align: left;
 }
-
+.home-iphone{
+    text-align: right;
+}
 .home-iphone img{
     width: 100%;
-}
-
-.home-iphone p{
-    text-align: center;
-    color: #fff;
-    font-size: 17px;
-    line-height: 28px;
-    margin-top: 0px;
-    font-weight: 300;
 }
 
 @media (max-width: 768px){
@@ -415,6 +413,7 @@ div.carousel-inner .item img {
 .testimonial_caption {
     padding-bottom: 70px;
 }
+
 .testimonial_caption p {
     color: #D8D8D8;
     font-size: 18px;
@@ -596,7 +595,7 @@ div.carousel-inner .item img {
     padding-bottom: 96px;
 }
 .screen_slider {
-    padding-top: 50px;
+    padding-top: 0px;
 }
 .owl-theme .owl-controls .owl-page span {
     display: block;
@@ -900,10 +899,10 @@ div.carousel-inner .item img {
     background: transparent
 }
 .subscribe .section_title h2{
-	color: #eaeaea;
+    color: #eaeaea;
 }
 .subscribe .section_title p{
-	color: #a4a4a4;
+    color: #a4a4a4;
 }
 .subscribe_form {
     text-align: center;
