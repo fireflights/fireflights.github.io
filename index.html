@@ -1,13 +1,12 @@
 
 <!DOCTYPE html>
 <html>
-<head>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Nicko Caluya">
     <link rel="icon" href="favicon.ico">
 
     <title>Home | Nicko Reginio Caluya</title>
@@ -22,142 +21,18 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 
     <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Social CSS -->
     <link href="social/bootstrap-social.css" rel="stylesheet">
 
+    <!-- actual stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<style>
-body, html {
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  color: #777;
-}
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bgimg-1 {
-  background-image: url("home.jpg");
-  min-height: 100%;
-}
-
-.bgimg-2 {
-  background-image: url("igpaw.png");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("cloud-field.png");
-  min-height: 400px;
-}
-
-.bgimg-4 {
-  background-image: url("speechless.jpg");
-  min-height: 400px;
-}
-
-.main-caption {
-  display: table;
-  text-align: left;
-  padding-top: 25vh;
-  height: 100%;
-  width:100%;
-}
-
-.main-caption span.border {
-  display: inline-block;
-
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 3vh;
-  letter-spacing: 10px;
-  margin-bottom: 20px;
-  font-family: 'Oswald', sans-serif;
-}
-
-.main-caption a.border-button {
-  display: inline-block;
-
-  border: 5px solid #1C83DC;
-  background-color: #111;
-
-  padding: 18px;
-  font-size: 3vh;
-  letter-spacing: 10px;
-
-  margin-bottom: 20px;
-  font-family: 'Oswald', sans-serif;
-
-  text-decoration: none;
-}
-
-.main-caption a.border-button:hover {
-  background-color: #EEE;
-  color: #1C83DC;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 45%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 3vh;
-  letter-spacing: 10px;
-  font-family: 'Oswald', sans-serif;
-}
-
-h3 {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #111;
-}
-
-.navb-brand {
-  color: black;
-  font-weight: bold;
-}
-
-.navb-item {
-  color: black;
-  font-weight: bold;
-
-  text-align: right;
-}
-
-.container-napi {
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-        background-attachment: scroll;
-    }
-}
-</style>
-</head>
 <body>
-  <div class="container-napi" style="width: 100%; position: absolute; z-index: 1;">
+  <div class="container-blog" style="width: 100%; position: absolute; z-index: 1;">
     <nav class="navbar navbar-toggleable-md" style="background: transparent; padding: 0.5rem 0;">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" style="border: 1px solid black;">
           <span class="fa fa-bars"></span>
@@ -175,8 +50,8 @@ h3 {
     </nav>
   </div>
 
-  <div class="bgimg-1">
-    <div class="container-napi">
+  <div class="bgimg-home">
+    <div class="container-blog">
       <div class="main-caption">
       <div style="display: table-row;">
       <span class="border">INTERACTIVE MULTIMEDIA</span>
@@ -193,50 +68,77 @@ h3 {
   </div>
 </div>
 
-<div class="container-napi">
+<div class="container-blog">
   <div style="color: #777;background-color:white;padding:50px 0 50px 0;">
-    <h3 style="text-align:center;"">WELCOME!</h3>
-    <p style="text-align:center;"">Hello and welcome to my Github page. </p>
-      <p style="text-align:center;"">I am Nicko Reginio Caluya, from Laguna, Philippines. Nicko, for short. </p> <p style="text-align:center;"">I am currently a master student at Nara Institute of Science and Technology, under the <a href="http://imd.naist.jp">Interactive Media Design Laboratory</a>. Scroll down to see some projects.</p>
+    <h3>WELCOME!</h3>
+    <p>Hello and welcome to my Github page. </p>
+      <p>I am Nicko Reginio Caluya, from Laguna, Philippines. Nicko, for short. </p> 
+      <p>I am currently a master student at Nara Institute of Science and Technology, under the <a href="http://imd.naist.jp">Interactive Media Design Laboratory</a>. </p>
+      <p>Scroll down to see some projects.</p>
   </div>
 </div>
 
-<div class="bgimg-3">
+<div class="bgimg-peintogen" id="projects">
+  <div class="caption">
+    <span class="border">Peinto-Gen</span>
+  </div>
+</div>
+
+<div style="position:relative;" class="container-blog" >
+  <div style="color:#777;background-color:white;padding:40px 0 50px 0;text-align: left;">
+
+    <br>
+    <h3>October 2017 - February 2018</h3>
+
+    <p>
+      Do you want to know more about transcriptomics?</p>
+
+    <p> This is actually a project led by Carlo Mallari (friend and colleague), who is currently a Doctor student at the Computational Systems Biology Laboratory at NAIST. He formed a team with Filipinos from NAIST to design and develop this web-based introduction to the world of activators and inhibitors, and how transcriptomics actually paints the big picture of a person's health.</p>
+
+    <p> I am just hosting the site in this Github because I was in charge of putting all the pages together, as well as laying out the encyclopedia page. Check out the site <a href="http://fireflights.github.io/peinto-gen">here</a>.</p>
+    <br/>
+
+  </div>
+</div>
+
+<div class="bgimg-cloudfield" >
   <div class="caption">
     <span class="border">cloud field</span>
   </div>
 </div>
 
-<div style="position:relative;" class="container-napi" id="projects">
+<div style="position:relative;" class="container-blog" >
   <div style="color:#777;background-color:white;padding:40px 0 50px 0;text-align: left;">
 
     <br>
     <h3>October - December 2016</h3>
 
     <p>
-      An idea: have you ever been so lost that the question "where are you" floats over your head, over clouds? Broadcasted, then fogged into forgetting. But then you remember consistently: you were lost then and there. 
+      An idea: have you ever been so lost that the question "where are you" floats over your head, over clouds? Broadcasted, then fogged into forgetting. But then you remember consistently: you were lost then and there. </p>
 
-      Back story: I was having an introductory lesson in WebGL here in Japan when <a href="http://instagram.com/alfredmarasigan">@alfredmarasigan</a> asked me about rendering clouds and fog but with annotated messages. I said go! And now here we are.
+    <p>
+      Back story: I was having an introductory lesson in WebGL here in Japan when <a href="http://instagram.com/alfredmarasigan">@alfredmarasigan</a> asked me about rendering clouds and fog but with annotated messages. I said go! And now here we are. </p>
 
+    <p>
       "cloud field" (2016) is part of <a href=tinyurl.com/godjwvx>"Spatial Territories"</a> exhibited at Bulwagan ng Dangal, University of the Philippines Diliman until 12/16. Created with WebGL and Three.js..</p>
     <br/>
 
   </div>
 </div>
 
-<div class="bgimg-2">
+<div class="bgimg-igpaw">
   <div class="caption">
     <span class="border">IGPAW: Intramuros</span>
   </div>
 </div>
 
-<div style="position:relative;" class="container-napi">
+<div style="position:relative;" class="container-blog">
   <div style="color:#777;background-color:white;padding:40px 0 50px 0;text-align: left;">
 
     <br>
     <h3>September 2014 - SEPTEMBER 2016</h3>
 
-    <p>Igpaw: Intramuros is an augmented reality mobile game developed for learning Philippine history within the actual confines of the walled city in Manila. The goal is to be able to find the cause of displacements of characters and objects significant in Philippine history and literature, and help restore balance in Intramuros. The player needs to scan historical markers in various locations to activate these scenes. I worked with a team of developers, designers, literary and history consultants, under the Ateneo Laboratory for the Learning Sciences. We used Vuforia + Unity 3D. You can download the Android version <a href="https://play.google.com/store/apps/details?id=org.alls.igpaw&hl=en">here</a>.
+    <p>Igpaw: Intramuros is an augmented reality mobile game developed for learning Philippine history within the actual confines of the walled city in Manila. The goal is to be able to find the cause of displacements of characters and objects significant in Philippine history and literature, and help restore balance in Intramuros. The player needs to scan historical markers in various locations to activate these scenes. I worked with a team of developers, designers, literary and history consultants, under the Ateneo Laboratory for the Learning Sciences. We used Vuforia + Unity 3D. You can download the Android version <a href="https://play.google.com/store/apps/details?id=org.alls.igpaw&hl=en">here</a>.</p>
 
     <h3>Publications:</h3>
 
@@ -252,7 +154,7 @@ h3 {
   </div>
 </div>
 
-<div style="position:relative;background-color:#282E34;" class="container-napi" id="contact">
+<div style="position:relative;background-color:#282E34;" class="container-blog" id="contact">
   <div style="color:#777;padding:40px 0 20px 0;text-align: left;">
 
 
