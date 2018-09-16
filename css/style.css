@@ -1,6 +1,7 @@
 
 body, html {
   height: 100%;
+  font-weight: 500;
   font-family: 'Montserrat', sans-serif;
   color: #777;
 }
@@ -15,7 +16,7 @@ body, html {
 
 }
 .bgimg-home {
-  background-image: url("../images/home.png");
+  background-image: url("../images/home.jpg");
   min-height: 100%;
 }
 
@@ -42,7 +43,7 @@ body, html {
 .main-caption {
   display: table;
   text-align: left;
-  padding-top: 25vh;
+  padding-top: 20vh;
   height: 100%;
   width:100%;
 }
@@ -50,12 +51,52 @@ body, html {
 .main-caption span.border {
   display: inline-block;
 
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
+  /*background-color: #111;*/
+  color: #c00;
+  padding: 0px;
+  word-wrap: break-word;
+  font-size: 8vh;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-caption span.subcaption {
+  display: inline-block;
+
+  /*background-color: #111;*/
+  color: #eee;
+  padding: 0px;
   font-size: 3vh;
-  font-weight: bold;
-  letter-spacing: 5px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-caption span.smalltext {
+  display: inline-block;
+
+  /*background-color: #111;*/
+  color: #eee;
+  padding: 0px;
+  font-size: 2vh;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-caption a.smalltext {
+  display: inline-block;
+
+  /*background-color: #111;*/
+  color: #c00;
+  padding: 0px;
+  font-size: 2vh;
+  font-weight: 500;
+  letter-spacing: 2px;
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -69,7 +110,7 @@ body, html {
   padding: 18px;
   font-size: 3vh;
   letter-spacing: 5px;
-  font-weight: bold;
+  font-weight: 500;
 
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
@@ -88,7 +129,7 @@ body, html {
   top: 45%;
   width: 100%;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000;
   font-family: 'Montserrat', sans-serif;
@@ -99,7 +140,7 @@ body, html {
   color: #fff;
   padding: 18px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 3vh;
   letter-spacing: 5px;
   font-family: 'Montserrat', sans-serif;
@@ -115,12 +156,12 @@ h3 {
 
 .navb-brand {
   color: black;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .navb-item {
   color: black;
-  font-weight: bold;
+  font-weight: 500;
 
   text-align: right;
 }
