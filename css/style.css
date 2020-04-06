@@ -30,6 +30,11 @@ body, html {
   min-height: 400px;
 }
 
+.bgimg-kantenbouki {
+  background-image: url("../images/kantenbouki.png");
+  min-height: 400px;
+}
+
 .bgimg-speechless {
   background-image: url("../images/speechless.jpg");
   min-height: 400px;
@@ -37,6 +42,11 @@ body, html {
 
 .bgimg-peintogen {
   background-image: url("../images/peintogen.png");
+  min-height: 400px;
+}
+
+.bgimg-transfer {
+  background-image: url("../images/transfer.png");
   min-height: 400px;
 }
 
