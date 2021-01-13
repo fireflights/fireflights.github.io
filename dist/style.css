@@ -288,13 +288,15 @@ img {
         margin-left: 0;
     }
 
-    .profile-bio {
+    .profile-bio,
+    .profile-capt {
         font-size: 1.4rem;
         margin-top: 1.5rem;
     }
 
     .profile-edit-btn,
     .profile-bio,
+    .profile-capt,
     .profile-stats {
         flex-basis: 100%;
     }
