@@ -147,6 +147,20 @@ img {
     margin-top: 2.3rem;
 }
 
+.profile-capt {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}
+
+.profile-pub {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}
+
 .profile-real-name,
 .profile-stat-count,
 .profile-edit-btn {
